@@ -22,6 +22,7 @@ TEST = $(shell) $(SCRIPT_DIR)/test.sh
 RUNSERVER = $(shell) $(SCRIPT_DIR)/runserver.sh
 SYNC = $(shell) $(SCRIPT_DIR)/sync.sh
 WATCH = $(shell) $(SCRIPT_DIR)/watch.sh
+PM = $(shell) $(SCRIPT_DIR)/pm.sh
 
 ansible_provision:
 	$(ANSIBLE_PROVISION)
@@ -81,3 +82,10 @@ watch:
 
 test:
 	$(TEST)
+
+pm:
+	echo "${action}"
+	@if [ "${action}" == '' ]; then \
+		echo "Error: Variables not set correctly"; exit 2; \
+	fi
+	$(PM) "${action}"
