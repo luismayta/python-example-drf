@@ -3,7 +3,7 @@
 
 export PROJECT_NAME=python-example-drf
 
-export PYTHON_VERSION=3.6.0
+export PYTHON_VERSION=3.6.1
 export PYENV_NAME="${PROJECT_NAME}"
 
 export GRIP_PORT=6430
