@@ -6,4 +6,7 @@
 
 cd "${SOURCE_DIR}" || echo 'Not Found'
 
-python manage.py runserver "${DJANGO_IP}:${DJANGO_PORT}"
+echo "execute $1"
+
+# python manage
+python manage.py "$1"
