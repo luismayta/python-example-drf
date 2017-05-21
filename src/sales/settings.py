@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'sales.wsgi.application'
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.parse(os.environ.get('DB_URL')),
+    'default': dj_database_url.parse(os.environ.get('DB_DEFAULT_URL')),
 }
 
 # Password validation
