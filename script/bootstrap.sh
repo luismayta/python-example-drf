@@ -8,6 +8,9 @@ export PYENV_NAME="${PROJECT_NAME}"
 
 export GRIP_PORT=6430
 
+export DJANGO_IP=0.0.0.0
+export DJANGO_PORT=8000
+
 # Vars Dir
 export ROOT_DIR
 ROOT_DIR=$(pwd)

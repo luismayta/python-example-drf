@@ -89,3 +89,7 @@ pm:
 		echo "Error: Variables not set correctly"; exit 2; \
 	fi
 	$(PM) "${action}"
+
+
+runserver:
+	$(RUNSERVER)
