@@ -11,6 +11,12 @@ class Chain(models.Model):
     founded_date = models.CharField(max_length=500)
     website = models.URLField(max_length=500)
 
+    def __unicode__(self):
+        return str(self.name)
+
+    class Meta:
+        db_table = 'chain'
+
 
 class Store(models.Model):
     """ Store location model.  Foreign key to Chain."""
@@ -35,6 +41,12 @@ class Store(models.Model):
         ]
     )
 
+    def __unicode__(self):
+        return str(self.number)
+
+    class Meta:
+        db_table = 'store'
+
 
 class Employee(models.Model):
     """ Location employee model.  Foreign key to Store."""
@@ -43,3 +55,9 @@ class Employee(models.Model):
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
     hired_date = models.DateTimeField(default=timezone.now)
+
+    def __unicode__(self):
+        return str(self.number)
+
+    class Meta:
+        db_table = 'employee'
