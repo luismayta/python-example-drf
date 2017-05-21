@@ -42,7 +42,7 @@ DJANGO_APPS = [
 
 LOCAL_APPS = [
     'retail',
-    'ventorystack',
+    'sales',
 ]
 
 THIRD_APPS = [
