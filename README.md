@@ -2,7 +2,6 @@
 
 Example Drf:
 
-<span class="badges">
 [![Code Climate](https://codeclimate.com/github/luismayta/python-example-drf/badges/gpa.svg)](https://codeclimate.com/github/luismayta/python-example-drf)
 [![GitHub issues](https://img.shields.io/github/issues/luismayta/python-example-drf.svg)](https://github.com/luismayta/python-example-drf/issues)
 [![GitHub forks](https://img.shields.io/github/forks/luismayta/python-example-drf.svg)](https://github.com/luismayta/python-example-drf)
@@ -10,7 +9,6 @@ Example Drf:
 [![Issue Count](https://codeclimate.com/github/luismayta/python-example-drf/badges/issue_count.svg)](https://codeclimate.com/github/luismayta/python-example-drf)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
 [![Test Coverage](https://codeclimate.com/github/luismayta/python-example-drf/badges/coverage.svg)](https://codeclimate.com/github/luismayta/python-example-drf/coverage)
-</span>
 
 Model Schema:
 
@@ -32,12 +30,10 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
-Made with :heart: ️:coffee:️ and :pizza: by [dgnest][link-company].
+Made with :heart: :coffee:️and :pizza: by [Hadenlabs][link-company].
 
 - [All Contributors][link-contributors]
 
-
-<!-- Other -->
 
 [link-company]: https://github.com/hadenlabs
 [link-contributors]: AUTHORS
