@@ -108,7 +108,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 REST_FRAMEWORK = {
-    'DEFAULT_PAGINATION_CLASS': 'retail.pagination.CustomCoursePaginator',
+    'DEFAULT_PAGINATION_CLASS': 'sales.pagination.CustomCoursePaginator',
     'PAGE_SIZE': 100,
 }
 
