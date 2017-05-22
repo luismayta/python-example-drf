@@ -41,15 +41,15 @@ DJANGO_APPS = [
 ]
 
 LOCAL_APPS = [
-    'retail',
     'sales',
+    'retail',
 ]
 
 THIRD_APPS = [
     'rest_framework',
 ]
 
-INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS + THIRD_APPS
+INSTALLED_APPS = DJANGO_APPS + THIRD_APPS + LOCAL_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -108,8 +108,8 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 REST_FRAMEWORK = {
-    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
-    'PAGE_SIZE': 100
+    'DEFAULT_PAGINATION_CLASS': 'sales.pagination.CustomCoursePaginator',
+    'PAGE_SIZE': 100,
 }
 
 # Internationalization

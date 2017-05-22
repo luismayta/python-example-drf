@@ -46,6 +46,7 @@ class Store(models.Model):
 
     class Meta:
         db_table = 'store'
+        ordering = ['-number']
 
 
 class Employee(models.Model):
@@ -61,3 +62,4 @@ class Employee(models.Model):
 
     class Meta:
         db_table = 'employee'
+        ordering = ['-number']
