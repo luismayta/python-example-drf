@@ -6,4 +6,4 @@ requests==2.13.0
 Unipath==1.1
 uwsgi==2.0.20
 yamlreader==3.0.4
-djangorestframework==3.12.4
+djangorestframework==3.13.1
