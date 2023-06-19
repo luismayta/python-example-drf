@@ -1,5 +1,5 @@
 dj-database-url==0.5.0
-Django==1.11.29
+Django==2.2.25
 psycopg2==2.9.6
 PyYAML==3.12
 requests==2.31.0
