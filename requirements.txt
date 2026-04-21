@@ -1,6 +1,6 @@
 dj-database-url==0.5.0
 Django==1.11.29
-psycopg2==2.9.6
+psycopg2==2.9.12
 PyYAML==3.12
 requests==2.32.2
 Unipath==1.1
